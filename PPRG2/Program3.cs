@@ -1,5 +1,4 @@
-﻿
-Console.WriteLine("podaj ilosc racji");
+﻿Console.WriteLine("podaj ilosc racji");
 int racje = int.Parse(Console.ReadLine());
 
 Console.WriteLine("podaj liczbe czlonkow druzyny");
@@ -17,16 +16,10 @@ Console.WriteLine("Pelne racje: " +pozRacje);
 Console.WriteLine("Pozostale racje: "  +pRacje);
 
 double dRacje = (double)racje / (double)druzyna / (double)dni;
-Console.WriteLine("Dzienne racje na osobe: " +dRacje);
+Console.WriteLine($"Dzienne racje na osobe: {dRacje:F2}");
 
 
 
 double medRacje = (double)racje / (double)dni;
 
-Console.WriteLine("Dzienne racje na druzyne "+ medRacje);
-
-
-
-
-
-
+Console.WriteLine($"Dzienne racje na druzyne {medRacje:F2} ");
