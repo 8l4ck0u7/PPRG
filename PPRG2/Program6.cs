@@ -16,6 +16,9 @@ switch (kierunek)
     case "zachod":
         Console.WriteLine("Wyruszasz w strone morza");
         break;
+    default:
+        Console.WriteLine("Nieznany kierunek");
+        break;
         
         
 }
